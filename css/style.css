@@ -42,17 +42,18 @@
   padding: 0;
   margin: 0px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   font-family: "Raleway-regular";
+  overflow-x: hidden;
 }
 .container {
   width: 100%;
   padding: o 15px;
   margin: 0 auto;
-  overflow-x: hidden;
 }
 
 @media (min-width: 576px) {
