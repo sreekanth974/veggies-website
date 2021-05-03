@@ -186,7 +186,7 @@ nav .top .contact h6,
 nav .top .time h6 {
   font-family: "Raleway-medium";
   letter-spacing: 0.055rem;
-  font-size: 0.75rem;
+  font-size: 2.75rem;
   color: var(--ternary);
 }
 nav .top .contact img,
@@ -201,6 +201,7 @@ nav .navbar a {
   text-decoration: none;
   color: var(--secondary);
   font-family: "Raleway-semibold";
+  background-color:#ece7ea;
   font-size: 1rem;
   padding: 1rem 1.5rem;
   transition: all 0.3s ease;
