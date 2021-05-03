@@ -255,13 +255,23 @@ nav .navbar a:hover {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
 }
-header.hero {
+/* header.hero {
   height: 600px;
   background-image: url(../images/bgjpg.jpg);
   background-position: 0% 0%;
   background-repeat: no-repeat;
   overflow: hidden;
+} */
+
+/* Carousel */
+#carouselExampleSlidesOnly{
+  z-index: -1;
 }
+.carousel-item img{
+  height: 100vh;
+  z-index: -1;
+}
+
 header.hero .container {
   position: relative;
 }
