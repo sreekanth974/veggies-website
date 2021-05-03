@@ -1256,3 +1256,8 @@ header .intro-text {
   color: #f00;
   font-weight: 700;
 }
+
+.smallMenuLogo {
+  height: 40px;
+  width: 135px;
+}
