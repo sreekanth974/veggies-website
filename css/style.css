@@ -996,6 +996,14 @@ input[type="number"] {
   background-color: #f44336;
 }
 
+/* Dropdown Link */
+.dropdown .dropdown-menu a.dropdown-item{
+  color: black;
+}
+.dropdown .dropdown-menu a.dropdown-item:hover{
+  color: black;
+}
+
 /* Center the image and position the close button */
 .imgcontainer {
   text-align: center;
