@@ -266,12 +266,12 @@ nav .navbar a:hover {
 } */
 
 /* Carousel */
-#carouselExampleSlidesOnly{
+/* #carouselExampleSlidesOnly{
   z-index: -1;
-}
+} */
 .carousel-item img{
   height: 80vh;
-  width: auto;
+  width: 100%;
 }
 
 @media (max-width:1026px) {
