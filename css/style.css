@@ -373,6 +373,7 @@ section.top-products .food-slider .food-card .product-image img {
   height: 156px;
   object-fit: contain;
   padding-bottom: 1rem;
+  align-items: center;
 }
 hr {
   border: 1px solid var(--light);
@@ -947,6 +948,7 @@ footer.copyright a {
   }
 }
 
+
 /* Login and Regiter */
 
 /* Full-width input fields */
@@ -1105,3 +1107,4 @@ span.psw {
   }
 }
 /* xxx Login and Register xxx */
+
