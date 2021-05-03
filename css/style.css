@@ -197,6 +197,9 @@ nav .top .time img {
 .justify-center {
   justify-content: center;
 }
+nav .navbar{
+  margin-bottom: 0px;
+}
 nav .navbar a {
   text-decoration: none;
   color: var(--secondary);
