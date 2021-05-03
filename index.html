@@ -53,83 +53,91 @@
                             <a href="#">Contact us</a>
                         </li>
                         
-               <li>
-              <ul>
+                          <li>
+
+            <!-- Dropdown -->
+            <div class="dropdown">
+
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                My Account
+              </button>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
-                  <!-- login -->
-                  <div>
-                    <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;" href="#">Login</a>
-
-                    <div id="id01" class="modal">
-
-                      <form class="modal-content animate" action="/action_page.php" method="post">
-                        <div class="imgcontainer">
-                          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                          <img src="images/img_avatar2.jpg" alt="Avatar" class="avatar">
-                        </div>
-
-                        <div class="container">
-                          <label for="uname"><b>Username</b></label>
-                          <input type="text" placeholder="Enter Username" name="uname" required>
-
-                          <label for="psw"><b>Password</b></label>
-                          <input type="password" placeholder="Enter Password" name="psw" required>
-                          <div class="nav-button">
-                            <button type="submit">Login</button>
-                          </div>
-                          <label>
-                            <input type="checkbox" checked="checked" name="remember"> Remember me
-                          </label>
-                        </div>
-
-                        <div class="container cancle-btn" style="background-color:#f1f1f1">
-                          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                          <span class="psw"> <a href="#" style="color:#0d6efd;">Forgot password?</a></span>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <!--xx login xx-->
+                  <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="dropdown-item" href="#">Login</a>
                 </li>
 
                 <li>
-                  <!-- Register -->
-                  <div>
-                    <a onclick="document.getElementById('id02').style.display='block'" style="width:auto;" href="#">Register</a>
-                    <div id="id02" class="modal">
-
-                      <form class="modal-content animate" action="/action_page.php" method="post">
-                        <div class="imgcontainer">
-                          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                          <img src="images/img_avatar2.jpg" alt="Avatar" class="avatar">
-                        </div>
-
-                        <div class="container">
-                          <label for="name"><b>Name</b></label>
-                          <input type="text" placeholder="Enter Username" name="uname" required>
-
-                          <label for="number"><b>Mobile No</b></label>
-                          <input type="number" placeholder="Enter Mobile No" name="number" required>
-
-                          <label for="email"><b>Email</b></label>
-                          <input type="email" placeholder="Enter Email" name="email" required>
-
-                          <label for="psw"><b>Password</b></label>
-                          <input type="password" placeholder="Enter Password" name="psw" required>
-
-                          <div class="nav-button">
-                            <button type="submit">Register</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                    </nav>
-                  </div>
-                  <!--xx Register xx-->
-
-                </li>
+                  <a onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="dropdown-item" href="#">Register</a>
+               </li>
               </ul>
+
+              <!-- login -->
+                <div id="id01" class="modal">
+
+                  <form class="modal-content animate" action="/action_page.php" method="post">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <img src="images/img_avatar2.jpg" alt="Avatar" class="avatar">
+                    </div>
+
+                    <div class="container">
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                      <div class="nav-button">
+                        <button type="submit">Login</button>
+                      </div>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                    </div>
+
+                    <div class="container cancle-btn" style="background-color:#f1f1f1">
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                      <span class="psw">Forgot <a href="#" style="color:#0d6efd;">password?</a></span>
+                    </div>
+                  </form>
+                </div>
+              <!--xx login xx-->
+
+            <!-- Register -->
+              <div id="id02" class="modal">
+
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="images/img_avatar2.jpg" alt="Avatar" class="avatar">
+                  </div>
+
+                  <div class="container">
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="number"><b>Mobile No</b></label>
+                    <input type="number" placeholder="Enter Mobile No" name="number" required>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <div class="nav-button">
+                      <button type="submit">Register</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+                <!--xx Register xx-->
+              </nav>
+            </div>
+            <!-- XX Dropdown XX -->
+            
             </li>
+              
             </ul>
                 </div>
                 <div class="contact flex items-center">
@@ -168,48 +176,57 @@
                             <a href="#"><img src="./icons/instagram.svg" alt=""></a>
                             <a href="#"><img src="./icons/search.svg" alt=""></a>
                         </div>
+                        
+                          <div class="auth flex items-center">
+              <!-- Dropdown -->
+              <div class="dropdown">
 
-                        <div class="auth flex items-center">
-                              <!-- login -->
-              <div>
-                <a onclick="document.getElementById('id03').style.display='block'" style="width:auto;" href="#">Login</a>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  My Account
+                </button>
 
-                <div id="id03" class="modal">
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a onclick="document.getElementById('id03').style.display='block'" style="width:auto;" class="dropdown-item" href="#">Login</a>
+                  </li>
 
-                  <form class="modal-content animate" action="/action_page.php" method="post">
-                    <div class="imgcontainer">
-                      <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
-                      <img src="images/img_avatar2.jpg" alt="Avatar" class="avatar">
-                    </div>
+                  <li>
+                    <a onclick="document.getElementById('id04').style.display='block'" style="width:auto;" class="dropdown-item" href="#">Register</a>
+                 </li>
+                </ul>
 
-                    <div class="container">
-                      <label for="uname"><b>Username</b></label>
-                      <input type="text" placeholder="Enter Username" name="uname" required>
+                <!-- login -->
+                  <div id="id03" class="modal">
 
-                      <label for="psw"><b>Password</b></label>
-                      <input type="password" placeholder="Enter Password" name="psw" required>
-                      <div class="nav-button">
-                        <button type="submit">Login</button>
+                    <form class="modal-content animate" action="/action_page.php" method="post">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        <img src="images/img_avatar2.jpg" alt="Avatar" class="avatar">
                       </div>
-                      <label>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                      </label>
-                    </div>
 
-                    <div class="container cancle-btn" style="background-color:#f1f1f1">
-                      <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
-                      <span class="psw"> <a href="#" style="color:#0d6efd;">Forgot password?</a></span>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <!--xx login xx-->
-                            
-                            <span class="divider">|</span>
-                            
-                             <!-- Register -->
-              <div>
-                <a onclick="document.getElementById('id04').style.display='block'" style="width:auto;" href="#">Register</a>
+                      <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <div class="nav-button">
+                          <button type="submit">Login</button>
+                        </div>
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                      </div>
+
+                      <div class="container cancle-btn" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#" style="color:#0d6efd;">password?</a></span>
+                      </div>
+                    </form>
+                  </div>
+                <!--xx login xx-->
+
+              <!-- Register -->
                 <div id="id04" class="modal">
 
                   <form class="modal-content animate" action="/action_page.php" method="post">
@@ -237,20 +254,19 @@
                     </div>
                   </form>
                 </div>
+                  <!--xx Register xx-->
                 </nav>
               </div>
-              <!--xx Register xx-->
+              <!-- XX Dropdown XX -->
+
+
+              <span class="divider">|</span>
+              <div>
+                <img src="./icons/cart.svg" alt="">
+                <a href="#">0 Items - ($0.00)</a>
+              </div>
+            </div>
                         
-                            <span class="divider">|</span>
-                            <div>
-                                <img src="./icons/cart.svg" alt="" width="25px">
-                                <a href="#">0 Items - ($0.00)</a>
-                            </div>
-                            <span class="divider">|</span>
-                            <div>
-                                <a href="#" class="glyphicon glyphicon-heart" style="width: 25px;"></a>
-                            </div>
-                        </div>
                     </div>
                 </header>
 
